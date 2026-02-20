@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ankush Raj | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Scroll Progress Bar -->
+<div id="progressBar"></div>
+
+<!-- Navbar -->
+<nav>
+    <h2>Ankush Raj</h2>
+    <div>
+        <a href="#hero">Home</a>
+        <a href="#opinion">Opinions</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero reveal">
+    <img src="c:\Users\Lenovo\Pictures\WhatsApp Image 2026-02-19 at 3.05.14 PM.jpeg" class="profile-img">
+    <h1>Hello, I'm Ankush Raj</h1>
+    <h3 class="typing"></h3>
+</section>
+
+<!-- Opinion Section -->
+<section id="opinion" class="reveal">
+    <h2>What Do You Think About Me?</h2>
+    <input type="text" id="username" placeholder="Your Name">
+    <textarea id="feedback" placeholder="Write your opinion..."></textarea>
+    <button onclick="addOpinion()">Submit</button>
+    <div id="opinions-list"></div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact reveal">
+    <h2>Contact Me</h2>
+    <p>Email: rajankush40819@gmail.com</p>
+    <p>Instagram: @raj4555</p>
+</section>
+
+<!-- Back To Top -->
+<button id="topBtn">⬆</button>
+<script src="script.js"></script>
+</body>
+</html>
